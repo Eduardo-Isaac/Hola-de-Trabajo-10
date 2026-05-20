@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Cargar grafo desde archivo
-        String filename = "demo/guategrafo.txt";
+        String filename = "guategrafo.txt";
         System.out.println("Cargando grafo desde: " + filename);
         graph = GraphFileReader.readGraph(filename, 100);
 
